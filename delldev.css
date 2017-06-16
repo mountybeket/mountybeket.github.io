@@ -1,0 +1,101 @@
+h1{
+  font-family: 'Dancing Script', cursive;
+  color: #FDF5E6;
+  text-align: center;
+  font-size: 130px;
+  margin-top: -1%;
+  margin-bottom: 0%;
+}
+select{
+  margin-left: 10%;
+  margin-right: 10%;
+  display:inline block;
+  height: 10%;
+  width: 20%;
+  display:inline;
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.thirdbutton{
+position: relative;
+left: 22%;
+top: 30%;
+}
+.secondbutton{
+position: relative;
+left: 22%;
+}
+.firstbutton{
+  position: relative;
+  left: 22%;
+}
+h2{
+font-family: 'Pacifico', cursive;
+color: #FF0000;
+position: absolute;
+top: 40%;
+left: 35%;
+margin: 0;
+padding: 0;
+font-size: 400%
+}
+p{
+  color: #F0F8FF;
+  position: absolute;
+  top: 50%;
+  margin-left:10%;
+  margin-right:10%;
+  font-size: 150%;
+}
+p:first-letter{
+font-family: Monotype Corsiva;
+font-size: 200%;
+color: red;
+}
+.text:first-letter{
+font-family: Impact;
+font-size: 200%;
+color: red;
+}
+.img1{
+  position: absolute;
+  top:72%;
+  right: 22%;
+}
+.l1{
+  position: absolute;
+  top: 120%;
+  margin-left:10%;
+  margin-right:10%;
+  font-size: 150%;
+}
+.img2{
+  position: absolute;
+  top:141%;
+  right: 22%;
+}
+.l2{
+  position: absolute;
+  margin-left:10%;
+  margin-right:10%;
+  font-size: 150%;
+  top:190%;
+}
+.img3{
+  position: absolute;
+  top:210%;
+  right: 22%;
+}
+.l3{
+  position: absolute;
+  margin-left:10%;
+  margin-right:10%;
+  font-size: 150%;
+  top:260%;
+}
+.img4{
+  position: absolute;
+  top:280%;
+  right: 22%
+}
