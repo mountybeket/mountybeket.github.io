@@ -3,7 +3,7 @@ $(document).ready(function(){
 
 
 function Rotator(start_from){
-    var phrases = ["фывфывфывфывыв","EVSVSGBTRSVDSXZ","VHRCSDGRWERSGFDS"];
+    var phrases = ["I love WEB-Design","Creative coder","Awesome WEB-Designer","Future White Haker"];
     var total = phrases.length;
     var interval = 1000;
     if(void 0 === start_from){

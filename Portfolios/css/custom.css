@@ -209,6 +209,12 @@ animation-duration: 3s;
   text-align: center;
   color: white;
   background-color: blue;
-
-
+}
+.textrotator{
+  position: absolute;
+  top: 82%;
+  left:42%;
+  font-size: 200%;
+  color: white;
+  font-family: 'Quicksand', sans-serif;
 }
