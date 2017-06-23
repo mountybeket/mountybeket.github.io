@@ -1,0 +1,214 @@
+#beka .img-circle{
+  position: absolute;
+  top: 10%;
+  left:38%;
+  border: 9px solid #E0FFFF;
+  /*border-radius: 60%;*/
+}
+h1{
+  color: white;
+  font-family: 'Quicksand', sans-serif;
+  top:65%;
+  left:34%;
+  position: absolute;
+  font-size: 500%;
+}
+#fade1{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(images/few.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #2F4254;
+
+}
+#fade2{
+  height: 100vh;
+  width: 100vw;
+  background-image: url(images/few.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-color: #1ABC9C;
+}
+
+#pos{
+  top: 31%;
+  left: 7%;
+  position: absolute;
+  color: #FFFAFA;
+
+}
+#pos2{
+  top: 31%;
+  left: 70%;
+  position: absolute;
+  color: #FFFAFA;
+}
+#cit{
+  position: absolute;
+  top: 93%;
+  left: 10%;
+  right: 10%;
+  font-size: 250%;
+  color: white;
+  ;
+}
+#me{
+  position: absolute;
+  top: 120%;
+  left: 35%;
+  font-size: 500%;
+  font-family: 'Quicksand', sans-serif;
+}
+.cvet{
+  color: #1C1C1C;
+}
+#png1 .img-circle{
+  position: absolute;
+  top:150%;
+  left: 1%;
+  border: 9px solid #E0FFFF;
+}
+#png2 .img-circle{
+  position: absolute;
+  top:150%;
+  left: 21%;
+  border: 9px solid #E0FFFF;
+}
+#png3 .img-circle{
+  position: absolute;
+  top:150%;
+  left: 41%;
+  border: 9px solid #E0FFFF;
+}
+#png4 .img-circle{
+  position: absolute;
+  top:150%;
+  left: 61%;
+  border: 9px solid #E0FFFF;
+}
+#png5 .img-circle{
+  position: absolute;
+  top:150%;
+  left: 81%;
+  border: 9px solid #E0FFFF;
+}
+#pro{
+  position: absolute;
+  top: 201%;
+  left: 35%;
+  font-size: 500%;
+  font-family: 'Quicksand', sans-serif;
+  color: white;
+}
+#fade3{
+height: 140vh;
+width: 100vw;
+background-image: url(images/few.jpg);
+background-size: cover;
+background-repeat: no-repeat;
+background-color: #2F4254;
+}
+#mac{
+  position: absolute;
+  top: 212%;
+  left: 1%;
+}
+#carousel-example-generic{
+  position: absolute;
+  top: 232%;
+  left: 13%;
+}
+.footb{
+  position: absolute;
+  top: 342%;
+  left: 89%;
+  color: white;
+  font-size: 150%;
+}
+.carousel-inner img {
+  height: 160% !important;
+  width: 100%;
+
+}
+@-webkit-keyframes flash {
+ 0%, 100% {opacity: 1;}
+ 50% {opacity: 0;}
+}
+@-moz-keyframes flash {
+ 0%, 100% {opacity: 1;}
+ 50% {opacity: 0;}
+}
+@-o-keyframes flash {
+ 0%, 100% {opacity: 1;}
+ 50% {opacity: 0;}
+}
+@keyframes flash {
+ 0%, 100% {opacity: 1;}
+ 50% {opacity: 0;}
+}
+.flash {
+ -webkit-animation-name: flash;
+ -moz-animation-name: flash;
+ -o-animation-name: flash;
+ animation-name: flash;
+ /* Задержка перед началом */
+ -webkit-animation-delay: 0s;
+ -moz-animation-delay: 0s;
+ -o-animation-delay: 0s;
+ animation-delay: 0s;
+ /* Продолжительность анимации */
+ -webkit-animation-duration: 3s;
+ -moz-animation-duration: 3s;
+ -o-animation-duration: 3s;
+ animation-duration: 3s;
+}
+
+@-webkit-keyframes flash {
+0%, 100% {opacity: 1;}
+50% {opacity: 0;}
+}
+@-moz-keyframes flash {
+0%, 100% {opacity: 1;}
+50% {opacity: 0;}
+}
+@-o-keyframes flash {
+0%, 100% {opacity: 1;}
+50% {opacity: 0;}
+}
+@keyframes flash {
+0%, 100% {opacity: 1;}
+50% {opacity: 0;}
+}
+#text {
+-webkit-animation-name: flash;
+-moz-animation-name: flash;
+-o-animation-name: flash;
+animation-name: flash;
+/* Задержка перед началом */
+-webkit-animation-delay: 0s;
+-moz-animation-delay: 0s;
+-o-animation-delay: 0s;
+animation-delay: 0s;
+/* Продолжительность анимации */
+-webkit-animation-duration: 3s;
+-moz-animation-duration: 3s;
+-o-animation-duration: 3s;
+animation-duration: 3s;
+}
+.carousel-inner > .item > img,
+.carousel-inner > .item > a > img {
+      width: 100%;
+      margin: auto;
+      height: 140%;
+  }
+.panel, .panel-default{
+  position: absolute;
+  top: 310%;
+  left: 17%;
+  text-align: center;
+  color: white;
+  background-color: blue;
+
+
+}
