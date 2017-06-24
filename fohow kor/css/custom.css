@@ -1,0 +1,135 @@
+.fohow {
+   width: 4em;
+}
+.active a {
+  background: white !important;
+  color: black !important;
+}
+
+.glyph { font-size: 5em;
+             margin-left: 35%;
+}
+.rov { margin-left: 20%;
+}
+.textrotator{
+  font-size: 190%;
+  text-align: center;
+  margin-bottom: 2%;
+  font-family: 'Lobster', cursive;
+
+}
+.page-header{
+  margin-bottom: 4%;
+}
+#footer {
+    position: absolute;; /* Фиксированное положение */
+    left: 0; bottom: 0; /* Левый нижний угол */
+    padding: 100px; /* Поля вокруг текста */
+    background: #333; /* Цвет фона */
+    color: #fff; /* Цвет текста */
+    width: 100%; /* Ширина слоя */
+    top: 650%;
+   }
+#social{
+  font-size: 250%;
+  position: absolute;
+  bottom: 20%;
+  left: 2%;
+  margin: 0;
+  padding: 0;
+  top: 8%;
+
+}
+.vk{
+position: absolute;
+left: 2%;
+}
+.inst{
+  position: absolute;
+  left: 12%;
+}
+#footer2{
+  position: absolute;; /* Фиксированное положение */
+  left: 0; bottom: 0; /* Левый нижний угол */
+  padding: 50px; /* Поля вокруг текста */
+  background: #17c7be;; /* Цвет фона */
+  color: #fff; /* Цвет текста */
+  width: 100%; /* Ширина слоя */
+  top: 680%;
+}
+#workers{
+  font-size: 250%;
+  position: absolute;
+  top: 3%;
+
+}
+body{
+  background-color: #F0F8FF;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+.slider {
+    width: 90%;
+    margin: 100px auto;
+
+}
+
+.slick-slide {
+    margin: 0px 20px;
+}
+
+.slick-slide img {
+    width: 100%;
+}
+
+.slick-prev:before,
+.slick-next:before {
+    color: black;
+}
+
+/*//////////////////////SECOND STYLE////////////////////////////////////*/
+.block-container {
+    position: relative;
+    float: left;
+    margin: 0px 20px;
+}
+.block-container, .block-container div, .block-container, img { width: 100%;}
+.block-container div, .block-container img { position: absolute; }
+.block-container img {z-index: 1000;}
+.block-front {
+    z-index: 1001;
+    background-color: black;
+    transition: all 0.4s ease-in-out 0s;
+    opacity: 0;
+    color: white;
+    cursor: pointer;
+
+}
+.block-front:hover { opacity: .9;}
+.block-front span {
+    display: block;
+    font-weight: bold;
+    padding: 0;
+    text-align: center;
+    height: 400px;
+    font-size: 200%;
+    clear: both;
+    margin-top: 19%;
+    margin-bottom: 0;
+
+  }
+  .btn-lg{
+    position: absolute;
+    top: 34%;
+    color: white;
+    background-color: green;
+    border: 0;
+    left: 20%;
+  }
