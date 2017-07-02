@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>vue-carousel-3d</title>
+
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+  <div class="page-header">
+<h1 class="brand">ZHASOTAN </h1>
+
+</div>
+<nav class="navbar navbar-default">
+<div class="container-fluid">
+  <!-- Brand and toggle get grouped for better mobile display -->
+  <div class="navbar-header">
+    <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+      <span class="sr-only">Toggle navigation</span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+      <span class="icon-bar"></span>
+    </button>
+  </div>
+
+  <!-- Collect the nav links, forms, and other content for toggling -->
+  <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+    <ul class="nav navbar-nav">
+      <li class="kn"><a href="../index.html">Негізгі<span class="sr-only">(current)</span></a></li>
+      <li class="kn"><a href="#">Жаңалықтар</a></li>
+      <li class="kn"><a href="#">Біз туралы</a></li>
+      <li class="kn"><a href="#">Президент Жолдауы</a></li>
+      <li class="kn"><a href="projects.html">Жобаларымыз</a></li>
+      <li class="kn"><a href="#">Құжаттар</a></li>
+      <li class="active kn"><a href="../gallery.html">Галерея</a></li>
+      <li class="kn"><a href="#">Байланыстар</a></li>
+</ul>
+
+
+  </div><!-- /.navbar-collapse -->
+</div><!-- /.container-fluid -->
+</nav>
+
+<div id="carousel">
+  <carousel-3d :autoplay="true" :autoplay-timeout="2400">
+    <slide :index="1"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3277.JPG"/></slide>
+    <slide :index="0"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3278.JPG"/></slide>
+    <slide :index="2"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3279.JPG"/></slide>
+    <slide :index="3"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3280.JPG"/></slide>
+    <slide :index="4"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3281.JPG"/></slide>
+    <slide :index="5"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3282.JPG"/></slide>
+    <slide :index="6"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3283.JPG"/></slide>
+    <slide :index="7"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3284.JPG"/></slide>
+    <slide :index="8"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3285.JPG"/></slide>
+    <slide :index="9"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3286.JPG"/></slide>
+    <slide :index="10"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3287.JPG"/></slide>
+    <slide :index="11"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3288.JPG"/></slide>
+    <slide :index="12"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3289.JPG"/></slide>
+    <slide :index="13"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3290.JPG"/></slide>
+    <slide :index="14"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3291.JPG"/></slide>
+    <slide :index="15"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3292.JPG"/></slide>
+    <slide :index="16"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3293.JPG"/></slide>
+    <slide :index="17"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3294.JPG"/></slide>
+    <slide :index="18"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3295.JPG"/></slide>
+    <slide :index="19"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3296.JPG"/></slide>
+    <slide :index="20"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3297.JPG"/></slide>
+    <slide :index="21"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3298.JPG"/></slide>
+    <slide :index="22"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3299.JPG"/></slide>
+    <slide :index="23"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3300.JPG"/></slide>
+    <slide :index="24"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3301.JPG"/></slide>
+    <slide :index="25"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3302.JPG"/></slide>
+    <slide :index="26"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3333.JPG"/></slide>
+    <slide :index="27"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3334.JPG"/></slide>
+    <slide :index="28"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3335.JPG"/></slide>
+    <slide :index="29"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3336.JPG"/></slide>
+    <slide :index="30"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3337.JPG"/></slide>
+  </carousel-3d>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js'></script>
+<script src='https://rawgit.com/Wlada/vue-carousel-3d/master/dist/vue-carousel-3d.min.js'></script>
+
+    <script src="js/index.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/custom.js"></script>
+
+</body>
+</html>

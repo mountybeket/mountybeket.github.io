@@ -1,0 +1,100 @@
+
+.carousel-3d-slide {
+      height: auto !important;
+      background-color: rgba(0, 0, 0, 0.25) !important;
+    }
+    html, body {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+      background:;
+
+    }
+
+    .carousel {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 30%;
+      bottom: 0;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      -ms-user-select: none;
+    }
+
+    .slide {
+      position: absolute;
+      width: 400px;
+      height: 300px;
+      left: 50%;
+      top: 50%;
+      margin-left: -200px;
+      margin-top: -150px;
+    }
+    .slide .img {
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      bottom: 0;
+    }
+    .slide .text {
+      position: absolute;
+      right: 110%;
+      top: 0;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 50px;
+      font-style: italic;
+      font-weight: 700;
+      white-space: nowrap;
+      color: #000;;
+      text-transform: uppercase;
+    }
+    .slide .action {
+      position: absolute;
+      bottom: 10%;
+      left: 80%;
+      font-family: Arial Black, Arial, sans-serif;
+      font-size: 50px;
+      font-style: italic;
+      font-weight: 700;
+      white-space: nowrap;
+      color: #fff;
+      text-transform: uppercase;
+      cursor: pointer;
+    }
+    .slide .action .blip {
+      position: relative;
+      display: inline-block;
+      width: 30px;
+      height: 30px;
+      top: -8px;
+      border-radius: 70px;
+      margin-right: -10px;
+      vertical-align: middle;
+      background: red;
+    }
+    .slide .action .action-text {
+      color: #000;
+    }
+    video {
+        position: fixed;
+        top: 0%;
+        left: 50%;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+        transform: translateX(-50%);
+      }
+    .goto{
+      color: #fafafa;
+      background-color: black;
+      border-radius: 10px;
+      font-family: 'Open Sans Condensed', sans-serif;
+      font-size: 15px;
+      width: 130%;
+    }

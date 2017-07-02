@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html >
+<head>
+  <meta charset="UTF-8">
+  <title>vue-carousel-3d</title>
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css'>
+  <link rel='stylesheet prefetch' href='http://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css'>
+  <link rel='stylesheet prefetch' href='http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.css'>
+  <link rel='stylesheet prefetch' href='http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css'>
+  <link rel="stylesheet" href="css/custom.css">
+  <link rel="stylesheet" href="css/bootstrap.css">
+      <link rel="stylesheet" href="css/style.css">
+
+
+</head>
+
+<body>
+
+  <!-- NAVIGATION -->
+    <nav class="navbar navbar-default navbar-fixed-top" role="navigation">
+      <div class="container">
+        <div class="navbar-header">
+          <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+            <span class="sr-only">Toggle navigation</span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+            <span class="icon-bar"></span>
+          </button>
+          <a class="navbar-brand scroll" href="#home">ZHASOTAN</a>
+        </div>
+        <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+          <ul class="nav navbar-nav">
+          <li><a href="../index.html">Главная</a></li>
+          <li><a href="#" class="scroll">О нас</a></li>
+          <li><a href="#" class="scroll">Послание Президента</a></li>
+          <li><a href="#" class="scroll">Проекты</a></li>
+          <li><a href="#" class="scroll">Документы</a></li>
+          <li><a href="../gallery.html" class="scroll">Галерея</a></li>
+          <li><a href="#contact" class="scroll">Контакты</a></li>
+        </ul>
+        </div>
+      </div>
+    </nav>
+
+<div id="carousel">
+  <carousel-3d :autoplay="true" :autoplay-timeout="2400">
+    <slide :index="1"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3428.jpg"/></slide>
+    <slide :index="0"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3429.jpg"/></slide>
+    <slide :index="2"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3430.JPG"/></slide>
+    <slide :index="3"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3431.jpg"/></slide>
+    <slide :index="4"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3432.jpg"/></slide>
+    <slide :index="5"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3433.jpg"/></slide>
+    <slide :index="6"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3434.jpg"/></slide>
+    <slide :index="7"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3435.jpg"/></slide>
+    <slide :index="8"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3436.jpg"/></slide>
+    <slide :index="9"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3437.jpg"/></slide>
+    <slide :index="10"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3438.jpg"/></slide>
+    <slide :index="11"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3439.jpg"/></slide>
+    <slide :index="12"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3440.jpg"/></slide>
+    <slide :index="13"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3441.jpg"/></slide>
+    <slide :index="14"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3442.jpg"/></slide>
+    <slide :index="15"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3443.jpg"/></slide>
+    <slide :index="16"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3444.JPG"/></slide>
+    <slide :index="17"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3445.jpg"/></slide>
+    <slide :index="18"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3446.jpg"/></slide>
+    <slide :index="19"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3447.jpg"/></slide>
+    <slide :index="20"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3448.jpg"/></slide>
+    <slide :index="21"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3449.jpg"/></slide>
+    <slide :index="22"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3450.jpg"/></slide>
+    <slide :index="23"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3451.jpg"/></slide>
+    <slide :index="24"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3452.jpg"/></slide>
+    <slide :index="25"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3453.jpg"/></slide>
+    <slide :index="26"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3454.jpg"/></slide>
+    <slide :index="27"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3455.jpg"/></slide>
+    <slide :index="28"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3464.jpg"/></slide>
+    <slide :index="29"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3465.jpg"/></slide>
+    <slide :index="30"><img src="http://zhasotan.kz/uploads/photo/photo-album/photo_3466.jpg"/></slide>
+  </carousel-3d>
+</div>
+
+<!-- CONTACT -->
+<div id="contact" class="content-section">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-12">
+        <h1>CONTACT</h1>
+        <p class="lead">Don't be shy! Say Hello!</p>
+        <div class="social-cont">
+          <div class="row">
+            <div class="col-sm-12">
+              <a class="btn btn-default btn-lg linkedin-btn" href="https://leventevmek.com" role="button" target="_blank"><i class="fa fa-star"></i><span>Portfolio</span></a>
+              <a class="btn btn-default btn-lg twitter-btn" href="https://twitter.com/lveent" role="button" target="_blank"><i class="fa fa-twitter"></i><span>Twitter</span></a>
+              <a class="btn btn-default btn-lg github-btn" href="https://github.com/lveent" role="button" target="_blank"><i class="fa fa-github"></i><span>Github</span></a>
+              <a class="btn btn-default btn-lg fcc-btn" href="https://www.freecodecamp.com/lveent" role="button" target="_blank"><i class="fa fa-fire"></i><span>freeCodeCamp</span></a>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </div>
+</div>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/vue/2.1.7/vue.js'></script>
+<script src="js/bootstrap.js"></script>
+<script src='https://rawgit.com/Wlada/vue-carousel-3d/master/dist/vue-carousel-3d.min.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='http://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/js/bootstrap.min.js'></script>
+  <script src='http://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.3/jquery.min.js'></script>
+  <script src='http://cdn.jsdelivr.net/jquery.slick/1.5.0/slick.min.js'></script>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/velocity/1.1.0/velocity.js'></script>
+  <script src='https://hammerjs.github.io/dist/hammer.js'></script>
+
+
+  <script src="js/index.js"></script>
+
+  <script src="js/custom.js"></script>
+
+
+</body>
+</html>

@@ -1,0 +1,39 @@
+.lang{
+  display: inline-block;
+}
+.brand{
+  font-size: 300%;
+  margin-left: 10%;
+}
+.page-header{
+  background-color: #75aaff;
+  width: 100%;
+}
+.brand{
+  padding-top: 5%;
+  padding-bottom: 5%;
+}
+.nav{
+  background-color: #5e9cff;
+  color: #75aaff;
+  margin-right: 30%;
+}
+.navbar-nav{
+  margin-top: -10%;
+  background-color: #5e9cff;
+
+
+}
+.page-header{
+  display: inline;
+  background-color: #609dff;
+}
+.langbar{
+  float: right;
+}
+.kn{
+  font-size: 150%;
+}
+ul li{
+  color: white;
+}

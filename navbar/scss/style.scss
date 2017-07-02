@@ -1,0 +1,93 @@
+@import "compass/css3";
+
+@mixin fullsize() {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+}
+
+html, body {
+  @include fullsize();
+  
+  background: #000;
+}
+  
+.carousel {
+  @include fullsize();
+  
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+}
+
+.slide {
+  position: absolute;
+  
+  width: 400px;
+  height: 300px;
+  
+  left: 50%;
+  top: 50%;
+  
+  margin-left: -200px;
+  margin-top: -150px;
+  
+  .img {
+    @include fullsize();
+  }
+  
+  .text {
+    position: absolute;
+    right: 110%;
+    top: 0;
+    
+    font-family: Arial Black, Arial, sans-serif;
+    font-size: 100px;
+    font-style: italic;
+    font-weight: 700;
+    
+    white-space: nowrap;
+    color: #fff;
+    
+    text-transform: uppercase;
+  }
+  
+  .action {
+    position: absolute;
+    bottom: 10%;
+    left: 80%;
+    
+    font-family: Arial Black, Arial, sans-serif;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 700;
+    
+    white-space: nowrap;
+    color: #fff;
+    
+    text-transform: uppercase;
+    
+    cursor: pointer;
+    
+    .blip {
+      position: relative;
+      
+      display: inline-block;
+      width: 70px;
+      height: 70px;
+      top: -8px;
+      border-radius: 70px;
+      
+      margin-right: -10px;
+      vertical-align: middle;
+      
+      background: red;
+    }
+    
+    .action-text {
+      color: #fff; 
+    }
+  }
+}
